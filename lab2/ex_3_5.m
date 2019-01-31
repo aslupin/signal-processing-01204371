@@ -1,0 +1,1 @@
+%[road,fs]=audioread('road.wav'); [road fs] = audioread('hootie.wav');%sound(road,fs);left=road(:,1);subplot(3,1,1);plot(left);grid on;right=road(:,2);subplot(3,1,2);plot(right);grid on;subplot(3,1,3);plot(left-right);grid on;%sound(left-right,fs);
